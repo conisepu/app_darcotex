@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@drawable/productos_icon"
+            android:title="Productos" />
+        <item
+            android:id="@+id/nav_ventas"
+            android:icon="@drawable/ventas_icon"
+            android:title="Ventas" />
+        <item
+            android:id="@+id/nav_clientes"
+            android:icon="@drawable/clientes_icon"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/nav_transacciones"
+            android:icon="@drawable/transacciones_icon"
+            android:title="Transacciones" />
+        <item
+            android:id="@+id/nav_estadisticas"
+            android:icon="@drawable/estadisticas_icon"
+            android:title="Estadisticas" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile_icon"
+                    android:title="Perfil" />
+                <item
+                    android:id="@+id/nav_configuracion"
+                    android:icon="@drawable/configuracion_icon"
+                    android:title="configuracion" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Logout" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_icon"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/email_icon"
+                android:title="Contacto" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Darcotex</string>
+
+    <!-- INICIO -->
+    <string name="BotonRegistro">Registro</string>
+    <string name="BotonInicioSesion">Inicio Sesion</string>
+    <string name="inicio_Usuario">Usuario</string>
+    <string name="inicio_pass">Password</string>
+
+    <!-- REGISTRO 1 -->
+    <string name="Registrar_Nombre">Ingrese Nombre</string>
+    <string name="Registrar_apellido">Ingrese Apellido</string>
+    <string name="Registrar_Nombre_usuario">Ingrese Nombre Usuario</string>
+    <string name="Registrar_email">Ingrese Email</string>
+    <string name="Registrar_numero_tel">Ingrese N° celular</string>
+
+    <string name="BotonRegistrarPersona1">Siguiente</string>
+    <string name="BotonVolverAtrasRegistro">Atras</string>
+
+
+    <!-- REGISTRO 2 -->
+    <string name="registrar_contraseña">Ingrese contraseña</string>
+    <string name="registrar_confirm_cotra">Confirmar contraseña</string>
+
+    <string name="BotonRegistrarPersona2">Registrar</string>
+    <string name="BotonVolverAtrasRegistro2">Atras</string>
+
+
+    <!-- INICIO SESION CLIENTES-->
+    <string name="title_activity_inicio_sesion">Inicio_sesion</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Poner nombre Usuario</string>
+    <string name="nav_header_subtitle">Poner correo</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_inicio_sesion__clientes">Activity_inicio_sesion_Clientes</string>
+
+    <!-- Empleados -->
+    <string name="navegation_drawer_open">open navegation drawer</string>
+    <string name="navegation_drawer_close">close navegation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

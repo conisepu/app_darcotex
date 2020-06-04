@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "337476744369",
+    "firebase_url": "https://darcotex-dc682.firebaseio.com",
+    "project_id": "darcotex-dc682",
+    "storage_bucket": "darcotex-dc682.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337476744369:android:af41b3bde9176899451e90",
+        "android_client_info": {
+          "package_name": "com.example.darcotex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337476744369-n8j9eda916en86lcfihq377g44r1e93n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEEsK4KUwVjh9xbHi0HK1-BlHJedSdzl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337476744369-n8j9eda916en86lcfihq377g44r1e93n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="408dp"
+        android:layout_height="135dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164"
+        app:srcCompat="@drawable/logo_darcotex" />
+
+    <EditText
+        android:id="@+id/inicio_Usuario"
+        android:layout_width="242dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/inicio_Usuario"
+        android:inputType="text"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorHighlight="?android:attr/textColorHighlight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.168" />
+
+    <EditText
+        android:id="@+id/inicio_pass"
+        android:layout_width="242dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/inicio_pass"
+        android:inputType="textPassword"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="161dp"
+        android:layout_height="41dp"
+        android:background="@drawable/button_rounded_border"
+        android:onClick="Inicio_sesion"
+        android:text="@string/BotonInicioSesion"
+        android:textColorLink="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inicio_pass"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/btn_registro"
+        android:layout_width="161dp"
+        android:layout_height="41dp"
+        android:background="@drawable/button_rounded_border"
+        android:onClick="Registro"
+        android:text="@string/BotonRegistro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inicio_pass"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <TextView
+        android:id="@+id/correo_empresa"
+        android:layout_width="134dp"
+        android:layout_height="25dp"
+        android:text="ventas@darcotex.cl"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.917" />
+
+    <Button
+        android:id="@+id/btn_llamar"
+        android:layout_width="156dp"
+        android:layout_height="47dp"
+        android:background="@drawable/button_llamar"
+        android:text="+56 2 2777 77 00"
+        android:textColor="@android:color/black"
+        android:textColorHint="#44FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
